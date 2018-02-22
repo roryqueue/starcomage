@@ -1,5 +1,4 @@
-package tutorial.webapp
-package ds
+package starcomage
 
 
 trait Monoid[A] {
@@ -28,11 +27,6 @@ object Monoid {
       )
     }
   }
-}
-
-class Fortress(castleSizeConstructor: Int, wallSizeConstructor: Int) {
-  val castleSize: Int = castleSizeConstructor
-  val wallSize: Int = wallSizeConstructor
 }
 
 class ResourceProducer(nameConstructor: String, producerCountConstructor: Int, resourceCountConstructor: Int) {
